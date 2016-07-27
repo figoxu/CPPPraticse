@@ -1,0 +1,11 @@
+
+===[生成库文件]====
+生成.o文件
+cd cSample/
+gcc -c Hello.c
+
+===[cmake]===
+include_directories(cSample)
+link_directories(cSample)
+set(SOURCE_FILES cSample/Hello.o main.cpp)
+
