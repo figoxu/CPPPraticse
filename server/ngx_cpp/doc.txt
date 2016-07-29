@@ -1,0 +1,13 @@
+====[ step01 ]===
+运行
+cd /home/figo/develop/env/WORKSPACE/figoxu.github/CPPPraticse/CPPPraticse/server/ngx_cpp/ngx_cpp_dev
+./config.sh
+
+====[ step02 ]===
+cd /ngx_cpp/nginx/Makefile
+make
+make install
+
+
+====[ step03 ]===
+在Make的时候，发现确实.o文件
