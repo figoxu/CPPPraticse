@@ -1,0 +1,30 @@
+https://github.com
+https://github.com/chaiwizard/
+iotek_cpp_course_homework
+
+安装git:
+sudo apt-get install git
+sudo yum install git
+
+git
+
+下载git仓库代码：
+git clone https://github.com/chaiwizard/
+iotek_cpp_course
+
+查看log信息
+git log
+
+查看当前的修改状态
+git status
+
+添加文件
+git add file_path
+
+提交
+git commit -a -m "提交说明"
+
+同步到github
+git push origin master
+
+
